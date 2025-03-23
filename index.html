@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Publicitaire</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">MonSitePub</div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Annonces</a></li>
+                <li><a href="#">S'inscrire</a></li>
+                <li><a href="#">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ads">
+            <h2>Publicités</h2>
+            <div class="ads-container">
+                <!-- Annonces dynamiques ici -->
+                <div class="ad-item">
+                    <img src="https://via.placeholder.com/300x250" alt="Publicité 1">
+                </div>
+                <div class="ad-item">
+                    <img src="https://via.placeholder.com/300x250" alt="Publicité 2">
+                </div>
+            </div>
+        </section>
+
+        <section class="payment">
+            <h2>Publicité payante</h2>
+            <p>Payez avec Polygon (MATIC) pour afficher votre annonce sur notre site.</p>
+            <button id="payBtn">Payer avec Polygon</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MonSitePub. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
